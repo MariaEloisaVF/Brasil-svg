@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Localizações do Brasil</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h1>Localizações do Brasil</h1>
+  <div class="div-container">
+    <div class="div-choice">
+      <label for="estado">Selecione um estado:</label>
+      <select id="estado"></select><br>
+
+      <label for="municipio">Selecione um município:</label>
+      <select id="municipio"></select>
+    </div>
+    <div id="svg-container">
+      <h2>Mapa</h2>
+      <svg id="svg-map" xmlns="http://www.w3.org/2000/svg" width="400px" height="400px" viewBox="0 0 100 100">
+
+      </svg>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
